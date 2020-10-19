@@ -39,7 +39,7 @@ for s in screen do
 
 
     while i ~= 0 do
-      awful.spawn(terminal, {
+      awful.spawn("sakura -e tmux", {
           tag = tag
       })
       i = i - 1
